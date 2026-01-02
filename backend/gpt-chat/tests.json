@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "name": "Test GPT chat endpoint",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "message": "Привет"
+      },
+      "expectedStatus": 200
+    },
+    {
+      "name": "Test OPTIONS for CORS",
+      "method": "OPTIONS",
+      "path": "/",
+      "expectedStatus": 200
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import Icon from "@/components/ui/icon";
 import { useState } from "react";
+import ChatWidget from "@/components/ChatWidget";
 
 const Index = () => {
   const [formData, setFormData] = useState({
@@ -316,6 +317,8 @@ const Index = () => {
           </Card>
         </div>
       </section>
+
+      <ChatWidget />
 
       <footer className="py-12 px-4 bg-muted/30 border-t border-border">
         <div className="container mx-auto">
